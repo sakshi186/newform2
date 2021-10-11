@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+   <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>formdesign2</title>
+         <style>
+             body{
+                 background:#f3e0e2;
+                 margin:0px;
+             }
+             .box{
+                 width:768px;
+                 height:480px;
+                 margin:120px auto;
+                 border-radius:12px;
+                 box-shadow:0px 10px 50px 10px rgba(0,0,0,0.2);
+                 overflow:hidden;
+                 font-family:Arial, Helvetica, sans-serif;
+             }
+             .box > div:first-child{
+                 width:50%;
+                 height:100%;
+                 background:#fff;
+                 float:left;
+             }
+             .box  > div:last-child{
+                 width:50%;
+                 height:100%;
+                 float:right;
+                 background-image:-webkit-linear-gradient(left,#ff464c,#ff416c);
+                 color:#fff;
+                 text-align:center;
+             }
+             .box > div:last-child *{
+                 width:70%;
+                 margin:auto;
+             }
+             .box > div:first-child a{
+                margin-top:22px;
+                 display:inline-block;
+             }
+             .box  > div:first-child form{
+                 width:80%;
+                 margin:40px auto;
+                 text-align:center;
+             }
+            input[type="password"]{
+                width:100%;
+                float:left;
+                margin-bottom:12px;
+            }
+            .box form input{
+                 height:39px;
+                 width:95%;
+                 background:#eee;
+                 border:none;
+                 margin-bottom:16px;
+                 margin-top:12px;
+                 padding-left:15px;
+            }
+            a{
+                color:#333;
+                text-decoration:none;
+            }
+            button[type="submit"]{
+                width:138px;
+                height:41px;
+                background:#ff4b2b;
+                border:none;
+                border-radius:50px;
+                color:#fff;
+                margin-top:10px;
+            }
+            .fab a{
+                border:1px solid #333;
+                height:40px;
+                width:40px;
+                border-radius:40px;
+                line-height:40px;
+                font-size:2em;
+            }
+         </style>
+    </head>
+    <body>
+        <div class="box">
+              <div>
+                  <form>
+                      <h1>LOGIN</h1>
+                      <div class="fab">
+                        <a style="margin-right:20px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      </div>
+                      <div>
+                        <a>or use an account</a>
+                      </div>
+                      
+                      <div>
+                          <input type="email" name="email" placeholder="Email">
+                          <input type="password" name="password" placeholder="Password">
+                      </div>
+                      <div>
+                          <a href="#">forgot your Password?</a>
+                      </div>
+                      <div>
+                          <button type="submit">LOGIN</button>
+                      </div>
+                  </form>
+              </div>
+              <div>
+                  <h1 style="margin-top:141px;">HTML CSS Login Form</h1>
+                  <p style="margin-top:22px;">This login form is created using pure HTML and CSS. For social icons,FontAwesome is used.</p>
+              </div>
+        </div>
+    </body>
+    </html>
